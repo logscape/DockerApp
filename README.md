@@ -17,13 +17,11 @@ The following configuration is optional. Download the DockerApp-1.0-override.pro
 
 which agent the docker app is going to run on. The agent has to run on the same host as docker for the metrics to be collected and visualized. 
 
-## Caches 
- ![](docs/images/dockerapp-home.png)
 
-## Client Requests 
+## Resources 
  ![](docs/images/dockerapp-resources.png)
 
-## Processes
+## Processes Metrics 
  ![](docs/images/dockerapp-processes.png)
 
 
