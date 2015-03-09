@@ -7,7 +7,7 @@ Monitor resources of a  Docker host, its containers, and the processes that each
 ## Downloads 
 
  * [DockerApp-1.1.zip](https://github.com/logscape/DockerApp/raw/master/dist/Docker-1.1.zip)
- * [DockerApp-1.1-override.properties](https://github.com/logscape/dockerapp/raw/master/DockerApp-1.0-override.properties) 
+ * [DockerApp-1.1-override.properties](https://github.com/logscape/dockerapp/raw/master/DockerApp-1.1-override.properties) 
 
 ## Configure 
 
