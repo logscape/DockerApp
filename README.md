@@ -2,8 +2,7 @@
 
 # Intro 
 
-Monitor resources of a  Docker host, its containers, and the processes that each container runs. Identify outliers and create alerts for your docker images and containers. 
-The Docker App gives you visibility of your Docker Containers, the processes running in them and their resource utilization. 
+The Docker App gives you visibility of your Docker Containers, the processes running in them and their resource utilization. Use the DockerApp to get operational visibility of multple docker containers running on the same host. 
 
 ## Downloads 
 
