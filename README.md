@@ -11,11 +11,12 @@ The Docker App gives you visibility of your Docker Containers, the processes run
 
 ## Configure 
 
-You can run the DockerApp on the same host as your Docker host by using a resource selector. This query 
+Use a resource selection query to specifiy which Forwarder your DockerApp is going to run. The Logscape Forwarder must be installed on the same host as the Docker daemon.
+This following resource query example will run on any Forwarder 
 
 	bundle.defaults.resourceSelection=hostName containsAny DockerHost 
 
-will select all Forwarders which have the DockerHost substring in them and execute the DockerApp.
+containing the DockerHost substring in them and execute the DockerApp.
 
 
 ## Home
