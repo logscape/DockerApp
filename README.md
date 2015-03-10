@@ -3,6 +3,7 @@
 # Intro 
 
 Monitor resources of a  Docker host, its containers, and the processes that each container runs. Identify outliers and create alerts for your docker images and containers. 
+The Docker App gives you visibility of your Docker Containers, the processes running in them and their resource utilization. 
 
 ## Downloads 
 
@@ -11,18 +12,31 @@ Monitor resources of a  Docker host, its containers, and the processes that each
 
 ## Configure 
 
-The following configuration is optional. Download the DockerApp-1.0-override.properties file and update the resourceSelection query. This query selects
+You can run the DockerApp on the same host as your Docker host by using a resource selector. This query 
 
-	bundle.defaults.resourceSelection=hostName containsAny WebFarmAgent
+	bundle.defaults.resourceSelection=hostName containsAny DockerHost 
 
-which agent the docker app is going to run on. The agent has to run on the same host as docker for the metrics to be collected and visualized. 
+will select all Forwarders which have the DockerHost substring in them and execute the DockerApp.
+
+
+## Containers
+
+The Home Workspace displays overall container resource utilisation, cpu,memory and network utilisation are display as line charts. 
+
+ ![](docs/images/dockerapp-home.png)
+
+## Processes Metrics 
+
+The Processes Workspace displays the Network, Memory and CPU utilization for all your Docker containers. Clicking on a process id will filter the Workspace to display just that process. 
+
+ ![](docs/images/dockerapp-processes.png)
 
 
 ## Resources 
  ![](docs/images/dockerapp-resources.png)
 
-## Processes Metrics 
- ![](docs/images/dockerapp-processes.png)
 
+## Containers 
 
+ ![](docs/images/dockerapp-containers.png)
 
