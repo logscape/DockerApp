@@ -40,7 +40,7 @@ The Resources Workspace provides a container wide view of cpu,memory and network
 
 ## Containers 
 
-The Containers Workspaces gives a process count of the different containers.
+The Containers Workspaces gives a view of process activity in running containers. 
 
  ![](docs/images/dockerapp-containers.png)
 
