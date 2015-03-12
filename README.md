@@ -6,7 +6,7 @@ The Docker App gives you visibility of your Docker Containers, the processes run
 
 ## Downloads 
 
- * [DockerApp-1.1.zip](https://github.com/logscape/DockerApp/raw/master/dist/Docker-1.1.zip)
+ * [DockerApp-1.1.zip](https://github.com/logscape/DockerApp/raw/master/dist/DockerApp-1.1.zip)
  * [DockerApp-1.1-override.properties](https://github.com/logscape/dockerapp/raw/master/DockerApp-1.1-override.properties) 
 
 ## Configure 
